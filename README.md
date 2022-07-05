@@ -1,44 +1,29 @@
-# Weather 
+# Tiik Temu Coffee Lhokseumawe 
 
 <h4 align="center">
-	<img height="150" src="https://user-images.githubusercontent.com/95291739/166086789-7076d7fb-d782-415c-8e32-ad9dfbeb5ab9.png">
+	<img height="150" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglk2bxwPr2fN_Rm51VJZ3FU5Nhzqj_Oqn7uPsQhEuuc0fv4IC1J1WoBpJAAuuTIjkbjlTjhsqj8ZBCALitQ51YlBZ9BYfCjCdy3RNlkLzFq6hEuJuiA3K1iwmUzdhdMmIVONd3BLYLo8mt6TvdIe1mrShE_ZVcEsfLq9_-cL4AUMbKN_h2SlTXyxCUxQ/s3074/Titik%20Temu.png">
 </h4>
 
 <p align="center">
- <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-layout">Layout</a> • 
- <a href="#-como-executar-o-projeto">Como executar</a> • 
- <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#-como-contribuir-para-o-projeto">Contribuir com o projeto</a> • 
- <a href="#-agradecimentos">Agradecimentos</a>
+ <a href="#-A3 Desain">Alamat : Jl. H Ustman Thaher - Samping Kantor Bupati - Belakang Masjid Islamic Center Kota Lhokseumawe</a>
 </p>
 
 
-## 💻 Sobre o projeto
+## 💻 A3 Desain Project
 
-<img height="16" src="https://cdn-icons-png.flaticon.com/512/590/590836.png"> Site de uma cafeteria - basicamente um site contendo informações sobre a cafeteria como: quem ela é, serviços, depoimentos, seus produtos, últimos posts do blog e endereço.
+<img height="16" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglk2bxwPr2fN_Rm51VJZ3FU5Nhzqj_Oqn7uPsQhEuuc0fv4IC1J1WoBpJAAuuTIjkbjlTjhsqj8ZBCALitQ51YlBZ9BYfCjCdy3RNlkLzFq6hEuJuiA3K1iwmUzdhdMmIVONd3BLYLo8mt6TvdIe1mrShE_ZVcEsfLq9_-cL4AUMbKN_h2SlTXyxCUxQ/s3074/Titik%20Temu.png"> Titik Temu Coffee Lhokseumawe Logo.
 
 ---
 
 
-## 🚀 Como executar o projeto
+## 🚀 Project A3 Desain 2022
 
-#### 🧭 Rodando a aplicação web na sua máquina
+#### 🧭 Code by Ar.maulana
 
 ```bash
-# Clone este repositório
-$ git clone https://github.com/LucimaraSouzah/SweetCoffeCream
-# Acesse a pasta do projeto no seu terminal/cmd
-$ cd SweetCoffeCream
-# Abra arquivo principal no seu browser, ou através do comando
-$ google-chrome index.html
+# A3 Desain in link :
+$ https://github.com/a3desain
 ```
-<div>
-Ou apenas click aqui para executar a aplicação --> 
-    <a href="https://lucimarasouzah.github.io/SweetCoffeCream">
-    <img height="30" valign=middle src="https://cdn-icons-png.flaticon.com/512/25/25231.png"/>
-    </a>
-</div>
 
 ---
 
@@ -55,21 +40,6 @@ Ou apenas click aqui para executar a aplicação -->
 - Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**
 
 ---
-
-## 💪 Como contribuir para o projeto
-
-1. Faça um **fork** do projeto.
-2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
-3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
-4. Envie as suas alterações: `git push origin my-feature`
-> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
----
-
-## 📝 Agradecimentos
-
-Obrigada pela atenção, espero que tenha gostado. Este projeto foi um desafio do Time Front Arretado proposto pelo &nbsp;<a href=https://www.linkedin.com/in/dersonsena/><img height="18" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" title="Kilderson Sena"/></a>
-
-Feito por Lucimara Souza 💜
 
 ---
 © 2022 GitHub, Inc.
