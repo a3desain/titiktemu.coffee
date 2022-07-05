@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/icons/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/style-tablet.css">
+    <link rel="stylesheet" href="assets/style/style-mobile.css">
+    <link rel="icon" href="assets/images/icon.svg" />
+    <title>TITIK TEMU</title>
+
+</head>
+<body>
+    <header>
+        <div class="header" id="header">
+            <div class="header-flag">
+
+                <i class="fa fa-bars" onclick="showHiddenMenu()" aria-hidden="true"></i>
+                <div>
+                    <img class="logo" src="assets/images/logocoffee.png" alt="Coffee shop logo">
+                </div>
+                
+                <ul class="menu screen translate-off" id="menuScreen">
+                    <li class="expand">
+                        <span>HOME</span>
+                    </li>
+                    <li class="expand">
+                        <span></span>
+                        <ul class="list-in off">
+                        </ul>
+                    </li>
+                    <li class="expand">
+                        <span></span>
+                    </li>
+                    <li class="expand">
+                        <span></span>
+                        <ul class="list-in off">
+                        </ul>
+                    </li>
+                    <li class="expand">
+                        <span></span>
+                        <ul class="list-in off">
+                        </ul>
+                    </li>
+                    <li class="expand">
+                        <span></span>
+                        <ul class="list-in off">
+
+                        </ul>
+                    </li>
+                </ul>
+
+                <button class="button-buy white">PESAN</button>
+            </div>
+        </div>
+        <div class="header-content">
+            <h1 class="title">Titik Temu</h1>
+            <p class="desc">Coffee and Sans</p>
+            <button class="button-read white">Instagram</button>
+        </div>
+    </header>
+    <main>
+        <div class="who-we-are">
+            <div class="who-images">
+                <img class="img-who" src="assets/images/img1.jpg" alt="Image of a woman with a cup of coffee">
+                <img class="img-who" src="assets/images/img2.jpg" alt="Image of two cups of coffee">
+                <img class="img-who" src="assets/images/img3.jpg" alt="Coffee beans image">
+            </div>
+            <div class="who-text">
+                <h1 class="title-who">WHO WE ARE</h1>
+                <p class="desc-who">Kami adalah tim penggemar kopi berdedikasi yang merayakan merek kopi dan pemanggang kopi terbaik dengan menawarkan kepada tamu kami kesempatan unik untuk mencoba minuman kopi dengan kualitas terbaik.</p>
+                <button class="button-learn black">TITIK TEMU</button>
+            </div>
+        </div>
+        <div class="our-services">
+            <div class="our-text">
+                <h1 class="title-our">PELAYANAN KAMI</h1>
+                <p class="desc-our">Kami menyediakan layanan terbaik untuk pelanggan baru maupun reguler kami. Jika Anda dapat memikirkan sesuatu yang berhubungan dengan kopi,maka kami dapat menawarkannya di Titik Temu.</p>
+                <button class="button-read white">BARISTA</button>
+            </div>
+            <div class="our-square">
+                <div class="square">
+                    <img src="assets/images/icon-service1.png" alt="Grain icon">
+                    <h1 class="title-square">BIJI KOPI TERBAIK</h1>
+                    <p class="desc-square">Nikmati seduhan biji kopi terbaik Titik Temu.</p>
+                </div>
+                <div class="square">
+                    <img src="assets/images/icon-service2.png" alt="Coffee pack icon">
+                    <h1 class="title-square">KOPI TERBAIK</h1>
+                    <p class="desc-square">Kopi terbaik dengan rasa terbaik Titik Temu.</p>
+                </div>
+                <div class="square">
+                    <img src="assets/images/icon-service3.png" alt="Coffee pot icon">
+                    <h1 class="title-square">BARISTA TERBAIK</h1>
+                    <p class="desc-square">Temukan seduhan kopi terbaik dari peracik terbaik Titik Temu.</p>
+                </div>
+                <div class="square">
+                    <img src="assets/images/icon-service4.png" alt="Coffee filter icon">
+                    <h1 class="title-square">RASA TERBAIK</h1>
+                    <p class="desc-square">Menawarkan rasa kopi terbaik, temukan itu di Titik Temu.</p>
+                </div>
+            </div>
+        </div>
+        <div class="testimonials">
+            <div class="testimonials-text">
+                <h1 class="title-testimonials">in Collaboration With</h1>
+                <p class="desc-testimonials">Coffee Street Lhokseumawe</p>
+            </div>
+                  
+            <div class="testimonials-person">
+                <img class="image-person" id="imagePerson" alt="Image of a woman">
+                <q class="desc-person" id="descPerson">All Day About Coffe</q>
+            <div class="icon-person">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </div>
+            <div class="buttons">
+                <button id="btnBack" onclick="changeUser(--position)" class="buttons-testimonials black">BACK</button>
+                <button id="btnNext" onclick="changeUser(++position)" class="buttons-testimonials black">NEXT</button>
+            </div>
+            </div>
+        </div>
+        <div class="our-products">
+            <div class="our-products-text">
+                <h1 class="title-products">ANEKA MENU TITIK TEMU</h1>
+                <p class="desc-products"></p>
+            </div>
+            <div class="our-products-body">
+                <div class="card-products">
+                    <img src="assets/images/card1.jpg" alt="Image of ground coffee, referring to espresso">
+                    <h1 class="title-card">COFFEE SERIES</h1>
+                    <p class="desc-card"></p>
+                <div class="icon-person">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </div>
+                </div>
+                <div class="card-products">
+                    <img src="assets/images/card2.jpg" alt="Image of a woman drinking coffee">
+                    <h1 class="title-card">YAKULT SERIES</h1>
+                    <p class="desc-card"></p>
+                <div class="icon-person">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </div>
+                </div>
+                <div class="card-products">
+                    <img src="assets/images/card3.jpg" alt="Coffee beans image">
+                    <h1 class="title-card">SQUASH SERIES</h1>
+                    <p class="desc-card"></p>
+                <div class="icon-person">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </div>
+                </div>
+            </div>
+            <button class="button-our-products white">LIHAT MENU TITIK TEMU</button>
+        </div>
+        <div class="latest-blog-posts">
+            <div class="blog-text">
+                <h1 class="title-blog">MENU</h1>
+                <p class="desc-blog">Tentukan selera terbaikmu untuk pilihan rasa yang kami tawarkan.</p>
+            </div>
+        <div class="blog-card">
+                        <img src="assets/images/post3.jpg" alt="Image of a hand holding a cup of coffee">
+                        <h1 class="title-card"></h1>
+                        <p class="desc-card"></p>
+                        <div class="buttons-blog">
+                            <button class="button-read-blog black">SELAMAT MENIKMATI</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="pages">
+            <h1 class="title-pages">Operasional</h1>
+            <ul class="pages-text">
+                <li class="desc-pages">Senin - Minggu Pukul 16:00 s/d 00:00 </li>
+                <li class="desc-pages"></li>
+                <li class="desc-pages"></li>
+                <li class="desc-pages"></li>
+                <li class="desc-pages"></li>
+                <li class="desc-pages"></li>
+            </ul>
+        </div>
+        <div class="description">
+            <h1 class="title-description">Alamat</h1>
+            <b><p class="desc-description">Jl. H Ustman Thaher - Samping Kantor Bupati - Belakang Masjid Islamic Center Kota Lhokseumawe.</p></b>
+        </div>
+        <div class="follow">
+            <h1 class="title-follow">Ikuti Kami</h1>
+            <div class="icons-follow">
+                <i class="fa fa-facebook f" aria-hidden="true"></i>
+                <i class="fa fa-twitter f" aria-hidden="true"></i>
+                <i class="fa fa-youtube f" aria-hidden="true"></i>
+            </div>
+        </div>
+    </footer>
+    <a href="#" id="ui-to-top" class="ui-to-top fa fa-angle-up active"></a>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
